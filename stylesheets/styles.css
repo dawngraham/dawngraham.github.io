@@ -1,10 +1,10 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5;
+  font: 10px/1.5;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#595959;
-  font-weight:200;
+  font-weight:300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,13 +21,13 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
-  font-weight: 500;
+  font-size:18px;
+  font-weight: 700;
 }
 
 h2 {
-  color:#393939;
-  font-weight: 500;
+  font-size:12px;
+  font-weight: 700;
 }
 
 h3, h4, h5, h6 {
@@ -36,12 +36,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#cc0000;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  text-decoration:underline;
 }
 
 a small {
