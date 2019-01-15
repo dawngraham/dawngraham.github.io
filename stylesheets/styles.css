@@ -118,7 +118,7 @@ header p {
 }
 
 #subtitle {
-  font-size: 1.4em;
+  font-size: 1em;
   color: #cc0000;
 }
 
@@ -231,7 +231,7 @@ footer {
   }
 
   header {
-    padding-right:320px;
+    padding-right:200px;
   }
 
   section {
@@ -252,6 +252,10 @@ footer {
     right:50px;
     top:52px;
   }
+
+  #subtitle {
+    font-size: 1.4em;
+  }
 }
 
 @media print, screen and (max-width: 720px) {
@@ -265,6 +269,10 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }
+
+  #subtitle {
+    padding-right:160px;
   }
 
   pre, code {
@@ -289,6 +297,11 @@ footer {
 
   header li, header ul li + li + li {
     width:33%;
+  }
+
+  #subtitle {
+    font-size: 1.1em;
+    padding-right:130px;
   }
 }
 
