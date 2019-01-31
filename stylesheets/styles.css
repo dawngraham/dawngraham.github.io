@@ -209,6 +209,12 @@ hr {
   margin:0 0 20px;
 }
 
+.subtitle {
+  text-transform: uppercase;
+  color: #434343;
+  font-size: .85em;
+}
+
 footer {
   width:270px;
   float:left;
