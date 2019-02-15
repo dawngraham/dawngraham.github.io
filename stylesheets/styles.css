@@ -14,7 +14,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
-  font-size: 1.2em;
 }
 
 h1, h2, h3 {
@@ -214,6 +213,10 @@ section {
   margin:0;
 }
 
+#summary {
+  font-size: 1.2em;
+}
+
 small {
   font-size:11px;
 }
@@ -244,6 +247,10 @@ hr {
   text-transform: uppercase;
   color: #434343;
   font-size: .85em;
+}
+
+#projects p {
+  margin: 0 0 20px 61px;
 }
 
 footer {
