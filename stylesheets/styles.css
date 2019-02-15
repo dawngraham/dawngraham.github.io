@@ -249,8 +249,16 @@ hr {
   font-size: .85em;
 }
 
+#projects div {
+  margin-bottom: 35px;
+}
+
 #projects p {
   margin: 0 0 20px 61px;
+}
+
+#bottom {
+  clear: both;
 }
 
 footer {
