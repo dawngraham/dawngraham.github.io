@@ -228,6 +228,11 @@ hr {
   margin:0 0 20px;
 }
 
+.note {
+  color: #434343;
+  font-size: 0.85em;
+}
+
 .article {
   min-height: 60px;
 }
