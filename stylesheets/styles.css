@@ -273,7 +273,7 @@ hr {
 
 .readingdt {
   writing-mode: vertical-lr;
-  margin: 0 0 0 -10px;
+  margin: 0 0 0px -10px;
 }
 
 .artsub {
@@ -309,16 +309,7 @@ hr {
 }
 
 #archive ul ul {
-	position: relative;
-	list-style: none;
 	margin-left: 0;
-	padding-left: 0.8em;
-}
-
-#archive ul ul li:before {
-	content: "";
-  margin: 0;
-  left: 0;
 }
 
 #bottom {
@@ -418,6 +409,16 @@ footer {
   #subtitle {
     font-size: 1.1em;
     padding-right:130px;
+  }
+
+  .reading {
+    max-width:75px;
+    max-height:75px;
+    margin: 0 5px 5px 0;
+  }
+  .readingdt {
+    margin: 0 0 -10px -5px;
+    font-size: 80%;
   }
 }
 
