@@ -261,6 +261,21 @@ hr {
   margin-right:10px;
 }
 
+.reading {
+  max-width:120px;
+  max-height:120px;
+  object-fit:contain;
+  border:1px solid #e0e0e0;
+  vertical-align:middle;
+  margin: 0 10px 10px 0;
+  border-radius: 3px;
+}
+
+.readingdt {
+  writing-mode: vertical-lr;
+  margin: 0 0 0 -10px;
+}
+
 .artsub {
   text-transform: uppercase;
   color: #434343;
@@ -290,6 +305,19 @@ hr {
 	content: "/";
   font-weight: 500;
 	position: absolute;
+  left: 0;
+}
+
+#archive ul ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0.8em;
+}
+
+#archive ul ul li:before {
+	content: "";
+  margin: 0;
   left: 0;
 }
 
